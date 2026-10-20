@@ -26,5 +26,8 @@ cask "badgebar" do
 
   uninstall quit: "io.github.hk-vk.badgebar"
 
-  zap trash: "~/Library/Preferences/io.github.hk-vk.badgebar.plist"
+  zap trash: [
+    "~/Library/Application Support/BadgeBar",
+    "~/Library/Preferences/io.github.hk-vk.badgebar.plist",
+  ]
 end
