@@ -5,14 +5,14 @@ cask "badgebar" do
   url "https://github.com/hk-vk/badgebar/releases/download/v#{version}/BadgeBar-#{version}.zip"
   name "BadgeBar"
   desc "Shows Dock badge counts in the menu bar"
-  homepage "https://badgebar.hari.works"
+  homepage "https://badgebar.hari.works/"
 
   livecheck do
     url :url
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "BadgeBar.app"
 
@@ -26,7 +26,5 @@ cask "badgebar" do
 
   uninstall quit: "io.github.hk-vk.badgebar"
 
-  zap trash: [
-    "~/Library/Preferences/io.github.hk-vk.badgebar.plist",
-  ]
+  zap trash: "~/Library/Preferences/io.github.hk-vk.badgebar.plist"
 end
