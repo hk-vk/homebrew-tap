@@ -1,6 +1,6 @@
 cask "badgebar" do
-  version "0.2.0"
-  sha256 "4da26d3186aba65a627409ff3ab70eaee609b90d2204e879b92c6b57a45025ba"
+  version "0.3.0"
+  sha256 "416d591311424179544683e4b1e2d97adae3768e1675f663381283ddc49e6848"
 
   url "https://github.com/hk-vk/badgebar/releases/download/v#{version}/BadgeBar-#{version}.zip"
   name "BadgeBar"
