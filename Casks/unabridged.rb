@@ -1,6 +1,6 @@
 cask "unabridged" do
   version "0.1.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "a35766abcf0dea0af2dd97a2c1b94db4cb76b0b04581e593fff752b930cf4173"
   auto_updates true
 
   url "https://github.com/hk-vk/unabridged/releases/download/v#{version}/Unabridged-#{version}.zip"
